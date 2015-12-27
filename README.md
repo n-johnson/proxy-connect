@@ -4,6 +4,10 @@ proxy-connect
 Forwards remote services over proxy to local ports; local applications do not
 need to be SOCKS-aware.
 
+#### Compile OSX
+
+`gcc connect.c -o connect -lresolv`
+
 How To Use
 ==========
 
